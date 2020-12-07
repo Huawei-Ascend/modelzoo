@@ -46,7 +46,7 @@ python utils/create_pretraining_data.py \
 
 启动训练之前，首先要配置程序运行相关环境变量。环境变量配置信息参见：
 
-- [Ascend 910训练平台环境变量设置](https://gitee.com/ascend/modelzoo/wikis/Ascend%20910%E8%AE%AD%E7%BB%83%E5%B9%B3%E5%8F%B0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E8%AE%BE%E7%BD%AE?sort_id=3148819)
+- [Ascend 910训练平台环境变量设置](https://github.com/Huawei-Ascend/modelzoo/wikis/Ascend%20910%E8%AE%AD%E7%BB%83%E5%B9%B3%E5%8F%B0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E8%AE%BE%E7%BD%AE?sort_id=3148819)
 
 多P训练时，需要依次拉起所有训练进程，因此需要在每个训练进程启动前，需要分别设置DEVICE_ID和RANK_ID，例如：
 export DEVICE_ID=1

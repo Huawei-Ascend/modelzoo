@@ -31,7 +31,7 @@ atc --model="./yolo3_resnet18.pb" --output_type=FP32 --input_shape="images:1,352
 
 ## 使用msame工具推理
 
-参考 https://gitee.com/ascend/tools/tree/master/msame, 获取msame推理工具及使用方法。
+参考 https://github.com/Huawei-Ascend/tools/tree/master/msame, 获取msame推理工具及使用方法。
 
 获取到msame可执行文件之后，将待检测om文件放在model文件夹，然后进行性能测试。
 
