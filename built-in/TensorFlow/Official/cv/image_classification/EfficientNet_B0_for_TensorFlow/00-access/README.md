@@ -105,7 +105,7 @@ cd tpu-r1.15/models/official/efficientnet
 ### 3. Set environment
 
 Before starting the training, first configure the environment variables related to the program running. For environment variable configuration information, see:
-- [Ascend 910训练平台环境变量设置](https://gitee.com/ascend/modelzoo/wikis/Ascend%20910%E8%AE%AD%E7%BB%83%E5%B9%B3%E5%8F%B0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E8%AE%BE%E7%BD%AE?sort_id=3148819)
+- [Ascend 910训练平台环境变量设置](https://github.com/Huawei-Ascend/modelzoo/wikis/Ascend%20910%E8%AE%AD%E7%BB%83%E5%B9%B3%E5%8F%B0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E8%AE%BE%E7%BD%AE?sort_id=3148819)
 
 ### 4. Train
 - train on a single NPU

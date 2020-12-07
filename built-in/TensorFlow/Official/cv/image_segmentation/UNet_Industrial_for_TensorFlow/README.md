@@ -99,7 +99,7 @@ pip3 install dllogger/
 ### Run training  
 
 Before starting the training, first configure the environment variables related to the program running. For environment variable configuration information, see:
-- [Ascend 910训练平台环境变量设置](https://gitee.com/ascend/modelzoo/wikis/Ascend%20910%E8%AE%AD%E7%BB%83%E5%B9%B3%E5%8F%B0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E8%AE%BE%E7%BD%AE?sort_id=3148819)
+- [Ascend 910训练平台环境变量设置](https://github.com/Huawei-Ascend/modelzoo/wikis/Ascend%20910%E8%AE%AD%E7%BB%83%E5%B9%B3%E5%8F%B0%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E8%AE%BE%E7%BD%AE?sort_id=3148819)
 
 ### Modification of OPP operator
 After the environment run package is installed, set the`${LOCAL_HIAI}/opp/op_impl/built-in/ai_core/tbe/config/${chip_info}/aic-${chip_info}-ops-info.json` The information of `sigmoid` operator and `reducesumd` operator is modified according to table 1. Where` ${LOCAL_HIAI}` is `LOCAL_HIAI` is the installation location of run package, such as `/usr/local/ascend`, `${chip_info}` is the chip version, such as `ascend910`. Please modify it according to the actual situation.

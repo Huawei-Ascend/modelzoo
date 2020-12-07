@@ -6,7 +6,7 @@ ATC转换命令：
 /home/HwHiAiUser/Ascend/ascend-toolkit/20.10.0.B023/atc/bin/atc --output_type=FP32 --input_shape="images:1,800,800,3" --check_report=/root/modelzoo/noisy_student_efficientnet-l2/device/network_analysis.report --input_format=NHWC --output="/root/modelzoo/noisy_student_efficientnet-l2/device/noisy_student_efficientnet-l2" --soc_version=Ascend310 --framework=3 --model="/home/HwHiAiUser/Orignal_Model/noisy_student_efficientnet-l2.pb" 
 ```
 ## 2、编译msame推理工具
-参考https://gitee.com/ascend/modelzoo/tree/develop/contrib/msame, 编译出msame推理工具
+参考https://github.com/Huawei-Ascend/modelzoo/tree/develop/contrib/msame, 编译出msame推理工具
 
 ## 3、使用msame工具进行推理性能测试
 转om模型，obs链接：obs://nkxiaolei88/ATC Model/NoisyStudent/noisy_student_efficientnet-l2.om\

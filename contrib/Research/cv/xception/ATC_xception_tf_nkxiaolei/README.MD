@@ -7,7 +7,7 @@ obs链接：obs://nkxiaolei88/ATC Model/Xception/xception_tf.om
 ## 3、将下载的om文件放在model文件夹
 
 ## 4、编译msame推理工具
-参考https://gitee.com/ascend/modelzoo/tree/develop/contrib/msame, 编译出msame推理工具
+参考https://github.com/Huawei-Ascend/modelzoo/tree/develop/contrib/msame, 编译出msame推理工具
 
 ## 5、性能测试
 使用msame推理工具，参考如下命令，发起推理性能测试： ./msame --model model/xception_tf.om --output output/ --loop 100

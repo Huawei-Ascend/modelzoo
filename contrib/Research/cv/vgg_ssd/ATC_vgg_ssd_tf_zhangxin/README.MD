@@ -20,7 +20,7 @@ C75环境的obs链接：https://modelzoo-train-atc.obs.cn-north-4.myhuaweicloud.
 ## 3、将下载的om文件放在model文件夹
 
 ## 4、编译msame推理工具
-参考 https://gitee.com/ascend/modelzoo/tree/develop/contrib/msame, 编译出msame推理工具
+参考 https://github.com/Huawei-Ascend/modelzoo/tree/develop/contrib/msame, 编译出msame推理工具
 
 ## 5、性能测试
 使用msame推理工具，参考如下命令，发起推理性能测试： 

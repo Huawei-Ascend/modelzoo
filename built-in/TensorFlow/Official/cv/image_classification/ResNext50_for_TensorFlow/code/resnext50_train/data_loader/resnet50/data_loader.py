@@ -159,7 +159,7 @@ def parse_function(filename, label):
     image = read_rawdata(filename)
     image_decoded = tf.image.decode_jpeg(image, channels=3)
     image_resized = tf.image.resize_images(image_decoded, [224, 224])
-    # 7.3£¬rawÄ¬ÈÏ¸ñÊ½Îªint64£¬Ä¿Ç°resnet50Ö»Ö§³Öint32£¬ÏÂ³ÁÇ°²»Ó°Ïì£¬ÏÂ³Áºó£¬Ã»ÓĞÔö¼Ó¸Ã×ª»»Ëã×Ó£¬Ó°ÏìĞÔÄÜ¿¼ÂÇ¡£    
+    # 7.3rawÄ¬Ï¸Ê½Îªint64Ä¿Ç°resnet50Ö»Ö§int32Â³Ç°Ó°ì£¬Â³Ã»Ó¸×ªÓ£Ó°Ü¿Ç¡    
     label = tf.cast(label, dtype=tf.int32)
     return image_resized, label
 
